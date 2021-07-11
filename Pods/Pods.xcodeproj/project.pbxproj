@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7CB16DE06FFFB5074A1FF9567D828202 /* PayTabsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 28FA545165D00D8FA9970D6DA34E39A4 /* Build configuration list for PBXAggregateTarget "PayTabsSDK" */;
+			buildPhases = (
+				9F6BC6E78B5576DA81070A2A5F1E09D1 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = PayTabsSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01E4F38D26E8F8CA27FD0FF74B1D55C6 /* Pods-AGPayTabsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7AFD8A459FCB367F5DA7B32D084048 /* Pods-AGPayTabsTests-dummy.m */; };
+		5994CB528CCE9101A2A82D8D3A725FA4 /* Pods-AGPayTabs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAA199D29C84D48239C947912F6192A /* Pods-AGPayTabs-dummy.m */; };
+		A7987C7AF8D0585DEBCD87FBCE7DDA46 /* Pods-AGPayTabs-AGPayTabsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFFD14CA370935D45B2AF4D9FAE2FDE /* Pods-AGPayTabs-AGPayTabsUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54BA7BAAE06A557A6CFD498E7EA484B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB16DE06FFFB5074A1FF9567D828202;
+			remoteInfo = PayTabsSDK;
+		};
+		D0184DA7C63848CD009AE7C74DB5D9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB16DE06FFFB5074A1FF9567D828202;
+			remoteInfo = PayTabsSDK;
+		};
+		F5F7C9F4151E5F0366C20B006FBB959B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE6764D6097E7C8745BB1F9BDD4ECA51;
+			remoteInfo = "Pods-AGPayTabs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089E4660C05C308FF23B77B19FAF5AE9 /* PaymentSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = PaymentSDK.xcframework; path = sources/PaymentSDK.xcframework; sourceTree = "<group>"; };
+		1437DF58F4E073F7B1B1AB9FC7CFA7C2 /* PayTabsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayTabsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		2AB97B039B8FBC6A743F0E8C9D7F2574 /* PayTabsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayTabsSDK.release.xcconfig; sourceTree = "<group>"; };
+		30B2A9A1960AE0D734698B2A44A46B1B /* Pods-AGPayTabs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPayTabs-frameworks.sh"; sourceTree = "<group>"; };
+		422B3DA59206DBEE863A5BC0CDE9C193 /* Pods-AGPayTabsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPayTabsTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BAA199D29C84D48239C947912F6192A /* Pods-AGPayTabs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGPayTabs-dummy.m"; sourceTree = "<group>"; };
+		5CE82FA4091AF3E4E94FA9A88281D833 /* Pods-AGPayTabsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGPayTabsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6782E68AA32225C0C99666BE538BDAB0 /* Pods-AGPayTabs-AGPayTabsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGPayTabs-AGPayTabsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80B0451AFD912415A52B53F5751AC5EF /* Pods-AGPayTabsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGPayTabsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A2BA603957BD0D91BB9C79A9E5E6785 /* Pods-AGPayTabs-AGPayTabsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGPayTabs-AGPayTabsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09B9200040B9D5DF0378026E7EA1EBD /* libPods-AGPayTabs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AGPayTabs.a"; path = "libPods-AGPayTabs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA256BA61A81C0685817E8467C5AAA7 /* PayTabsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PayTabsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		BAFFD14CA370935D45B2AF4D9FAE2FDE /* Pods-AGPayTabs-AGPayTabsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGPayTabs-AGPayTabsUITests-dummy.m"; sourceTree = "<group>"; };
+		BE32542193A33AF3423ED3593AC218A8 /* Pods-AGPayTabs-AGPayTabsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPayTabs-AGPayTabsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0E0F54464043277CD07FF2C73ACC919 /* Pods-AGPayTabs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGPayTabs-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBD542F936F4E615021C2227040D3A0A /* libPods-AGPayTabsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AGPayTabsTests.a"; path = "libPods-AGPayTabsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE645125F7290A37BFB6B54D4BA6B09A /* Pods-AGPayTabs-AGPayTabsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGPayTabs-AGPayTabsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7E7F07598E1FF8054A7BAA872AF7B3C /* Pods-AGPayTabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPayTabs.release.xcconfig"; sourceTree = "<group>"; };
+		E8F9EDF9CCB08AC0C6B53924135D7511 /* Pods-AGPayTabs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGPayTabs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA56C08E6AE9AA746764276E1DB15CE0 /* libPods-AGPayTabs-AGPayTabsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AGPayTabs-AGPayTabsUITests.a"; path = "libPods-AGPayTabs-AGPayTabsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7AFD8A459FCB367F5DA7B32D084048 /* Pods-AGPayTabsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGPayTabsTests-dummy.m"; sourceTree = "<group>"; };
+		ECEDCF68363790B20820AD84E9514630 /* Pods-AGPayTabsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPayTabsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F639DB1D94AFE1BD9FF50D06CA969823 /* Pods-AGPayTabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPayTabs.debug.xcconfig"; sourceTree = "<group>"; };
+		FE92D76B70E21F0BEA9BB74769436121 /* Pods-AGPayTabs-AGPayTabsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGPayTabs-AGPayTabsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C1381D4F81D3DA313BADB984C8B90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD3CF0C2C92EE6C910249597BE873FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB702C32BD2B1045225859A67599635B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F71D29B8A4B56C173806E76BFCB0EC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1574FF70E66DA4A583A31251105C112 /* Pods-AGPayTabs */,
+				6C973044C5FF83AA90EAED14B766FA39 /* Pods-AGPayTabs-AGPayTabsUITests */,
+				D43950EF1D8703B5BA4227999A31BC02 /* Pods-AGPayTabsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		341D21B6EAAF9574E1A74A0112E7377C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA256BA61A81C0685817E8467C5AAA7 /* PayTabsSDK-xcframeworks.sh */,
+				1437DF58F4E073F7B1B1AB9FC7CFA7C2 /* PayTabsSDK.debug.xcconfig */,
+				2AB97B039B8FBC6A743F0E8C9D7F2574 /* PayTabsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PayTabsSDK";
+			sourceTree = "<group>";
+		};
+		3D6FDC09B63F91FCE242E09171C1BF9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09B9200040B9D5DF0378026E7EA1EBD /* libPods-AGPayTabs.a */,
+				EA56C08E6AE9AA746764276E1DB15CE0 /* libPods-AGPayTabs-AGPayTabsUITests.a */,
+				DBD542F936F4E615021C2227040D3A0A /* libPods-AGPayTabsTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C973044C5FF83AA90EAED14B766FA39 /* Pods-AGPayTabs-AGPayTabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE645125F7290A37BFB6B54D4BA6B09A /* Pods-AGPayTabs-AGPayTabsUITests-acknowledgements.markdown */,
+				6782E68AA32225C0C99666BE538BDAB0 /* Pods-AGPayTabs-AGPayTabsUITests-acknowledgements.plist */,
+				BAFFD14CA370935D45B2AF4D9FAE2FDE /* Pods-AGPayTabs-AGPayTabsUITests-dummy.m */,
+				9A2BA603957BD0D91BB9C79A9E5E6785 /* Pods-AGPayTabs-AGPayTabsUITests-frameworks.sh */,
+				BE32542193A33AF3423ED3593AC218A8 /* Pods-AGPayTabs-AGPayTabsUITests.debug.xcconfig */,
+				FE92D76B70E21F0BEA9BB74769436121 /* Pods-AGPayTabs-AGPayTabsUITests.release.xcconfig */,
+			);
+			name = "Pods-AGPayTabs-AGPayTabsUITests";
+			path = "Target Support Files/Pods-AGPayTabs-AGPayTabsUITests";
+			sourceTree = "<group>";
+		};
+		7A1DB1124F0458848459FCC1AA43BDBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6AA9803B076F14299D2CD4E73D7F906 /* PayTabsSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E1B15ABAB1894CDFE14569DF450F0CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089E4660C05C308FF23B77B19FAF5AE9 /* PaymentSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1574FF70E66DA4A583A31251105C112 /* Pods-AGPayTabs */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9EDF9CCB08AC0C6B53924135D7511 /* Pods-AGPayTabs-acknowledgements.markdown */,
+				C0E0F54464043277CD07FF2C73ACC919 /* Pods-AGPayTabs-acknowledgements.plist */,
+				4BAA199D29C84D48239C947912F6192A /* Pods-AGPayTabs-dummy.m */,
+				30B2A9A1960AE0D734698B2A44A46B1B /* Pods-AGPayTabs-frameworks.sh */,
+				F639DB1D94AFE1BD9FF50D06CA969823 /* Pods-AGPayTabs.debug.xcconfig */,
+				E7E7F07598E1FF8054A7BAA872AF7B3C /* Pods-AGPayTabs.release.xcconfig */,
+			);
+			name = "Pods-AGPayTabs";
+			path = "Target Support Files/Pods-AGPayTabs";
+			sourceTree = "<group>";
+		};
+		A6AA9803B076F14299D2CD4E73D7F906 /* PayTabsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7E1B15ABAB1894CDFE14569DF450F0CE /* Frameworks */,
+				341D21B6EAAF9574E1A74A0112E7377C /* Support Files */,
+			);
+			name = PayTabsSDK;
+			path = PayTabsSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7A1DB1124F0458848459FCC1AA43BDBE /* Pods */,
+				3D6FDC09B63F91FCE242E09171C1BF9F /* Products */,
+				2F71D29B8A4B56C173806E76BFCB0EC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D43950EF1D8703B5BA4227999A31BC02 /* Pods-AGPayTabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				80B0451AFD912415A52B53F5751AC5EF /* Pods-AGPayTabsTests-acknowledgements.markdown */,
+				5CE82FA4091AF3E4E94FA9A88281D833 /* Pods-AGPayTabsTests-acknowledgements.plist */,
+				EB7AFD8A459FCB367F5DA7B32D084048 /* Pods-AGPayTabsTests-dummy.m */,
+				ECEDCF68363790B20820AD84E9514630 /* Pods-AGPayTabsTests.debug.xcconfig */,
+				422B3DA59206DBEE863A5BC0CDE9C193 /* Pods-AGPayTabsTests.release.xcconfig */,
+			);
+			name = "Pods-AGPayTabsTests";
+			path = "Target Support Files/Pods-AGPayTabsTests";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17192C1BB328B9309B8CF79DC1D1AB26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25956B0913974D4F6FFA27D78473464F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9074DD6C906D83B49A21848F96F8F590 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		099D2FC9C3D775B49F774639FCCC5A1A /* Pods-AGPayTabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887DC85CEEF1AEE109C53C2B717D8198 /* Build configuration list for PBXNativeTarget "Pods-AGPayTabsTests" */;
+			buildPhases = (
+				17192C1BB328B9309B8CF79DC1D1AB26 /* Headers */,
+				18336F08AC44886B27D781D94E726260 /* Sources */,
+				60C1381D4F81D3DA313BADB984C8B90C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A492597E7143541D9D6D45EA6FE64F80 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGPayTabsTests";
+			productName = "Pods-AGPayTabsTests";
+			productReference = DBD542F936F4E615021C2227040D3A0A /* libPods-AGPayTabsTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B32B497CC133ECB5B6CE0E7B4140C5FD /* Pods-AGPayTabs-AGPayTabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127FCC8C65324E434BF3FE202FBF35B9 /* Build configuration list for PBXNativeTarget "Pods-AGPayTabs-AGPayTabsUITests" */;
+			buildPhases = (
+				25956B0913974D4F6FFA27D78473464F /* Headers */,
+				C6F27EE78134C05D1375025992D1F77A /* Sources */,
+				6CD3CF0C2C92EE6C910249597BE873FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2AF1BE4E3EA76EAC83AD38F8654F29 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGPayTabs-AGPayTabsUITests";
+			productName = "Pods-AGPayTabs-AGPayTabsUITests";
+			productReference = EA56C08E6AE9AA746764276E1DB15CE0 /* libPods-AGPayTabs-AGPayTabsUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE6764D6097E7C8745BB1F9BDD4ECA51 /* Pods-AGPayTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE418FAF436247DE4D0E817DE97DA6AB /* Build configuration list for PBXNativeTarget "Pods-AGPayTabs" */;
+			buildPhases = (
+				9074DD6C906D83B49A21848F96F8F590 /* Headers */,
+				A0C28C415DDEBD7B880D898ECD061943 /* Sources */,
+				FB702C32BD2B1045225859A67599635B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5046322B54AC65191F8617BE5BECAC9E /* PBXTargetDependency */,
+			);
+			name = "Pods-AGPayTabs";
+			productName = "Pods-AGPayTabs";
+			productReference = A09B9200040B9D5DF0378026E7EA1EBD /* libPods-AGPayTabs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3D6FDC09B63F91FCE242E09171C1BF9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CB16DE06FFFB5074A1FF9567D828202 /* PayTabsSDK */,
+				BE6764D6097E7C8745BB1F9BDD4ECA51 /* Pods-AGPayTabs */,
+				B32B497CC133ECB5B6CE0E7B4140C5FD /* Pods-AGPayTabs-AGPayTabsUITests */,
+				099D2FC9C3D775B49F774639FCCC5A1A /* Pods-AGPayTabsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F6BC6E78B5576DA81070A2A5F1E09D1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PayTabsSDK/PayTabsSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PayTabsSDK/PayTabsSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/PayTabsSDK/PayTabsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18336F08AC44886B27D781D94E726260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E4F38D26E8F8CA27FD0FF74B1D55C6 /* Pods-AGPayTabsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C28C415DDEBD7B880D898ECD061943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5994CB528CCE9101A2A82D8D3A725FA4 /* Pods-AGPayTabs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F27EE78134C05D1375025992D1F77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7987C7AF8D0585DEBCD87FBCE7DDA46 /* Pods-AGPayTabs-AGPayTabsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5046322B54AC65191F8617BE5BECAC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PayTabsSDK;
+			target = 7CB16DE06FFFB5074A1FF9567D828202 /* PayTabsSDK */;
+			targetProxy = D0184DA7C63848CD009AE7C74DB5D9AD /* PBXContainerItemProxy */;
+		};
+		8E2AF1BE4E3EA76EAC83AD38F8654F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PayTabsSDK;
+			target = 7CB16DE06FFFB5074A1FF9567D828202 /* PayTabsSDK */;
+			targetProxy = 54BA7BAAE06A557A6CFD498E7EA484B0 /* PBXContainerItemProxy */;
+		};
+		A492597E7143541D9D6D45EA6FE64F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AGPayTabs";
+			target = BE6764D6097E7C8745BB1F9BDD4ECA51 /* Pods-AGPayTabs */;
+			targetProxy = F5F7C9F4151E5F0366C20B006FBB959B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EE3B4B3D6CB5F304F02FF9714DA3C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE32542193A33AF3423ED3593AC218A8 /* Pods-AGPayTabs-AGPayTabsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23AD0AD0E61EE53B361CD1E5B9036B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB97B039B8FBC6A743F0E8C9D7F2574 /* PayTabsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F1EDA7666CB0B4FE27C26CD71284347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F639DB1D94AFE1BD9FF50D06CA969823 /* Pods-AGPayTabs.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FCE3C77A59AF6C088D94CA873DDB5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE92D76B70E21F0BEA9BB74769436121 /* Pods-AGPayTabs-AGPayTabsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5FA2605EE19F8BAAC424757B9559C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1437DF58F4E073F7B1B1AB9FC7CFA7C2 /* PayTabsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA6387117392538DFC02814E6FCB6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422B3DA59206DBEE863A5BC0CDE9C193 /* Pods-AGPayTabsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D257F5E7ED7AC31393E899FDE99263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E7F07598E1FF8054A7BAA872AF7B3C /* Pods-AGPayTabs.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52BC7D649BADC9391470ACBEA098743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEDCF68363790B20820AD84E9514630 /* Pods-AGPayTabsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		127FCC8C65324E434BF3FE202FBF35B9 /* Build configuration list for PBXNativeTarget "Pods-AGPayTabs-AGPayTabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE3B4B3D6CB5F304F02FF9714DA3C8E /* Debug */,
+				9FCE3C77A59AF6C088D94CA873DDB5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FA545165D00D8FA9970D6DA34E39A4 /* Build configuration list for PBXAggregateTarget "PayTabsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FA2605EE19F8BAAC424757B9559C6F /* Debug */,
+				23AD0AD0E61EE53B361CD1E5B9036B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887DC85CEEF1AEE109C53C2B717D8198 /* Build configuration list for PBXNativeTarget "Pods-AGPayTabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52BC7D649BADC9391470ACBEA098743 /* Debug */,
+				BFA6387117392538DFC02814E6FCB6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE418FAF436247DE4D0E817DE97DA6AB /* Build configuration list for PBXNativeTarget "Pods-AGPayTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1EDA7666CB0B4FE27C26CD71284347 /* Debug */,
+				D2D257F5E7ED7AC31393E899FDE99263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
